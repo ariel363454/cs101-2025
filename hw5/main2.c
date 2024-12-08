@@ -2,11 +2,11 @@
 int main()
 {
     long double z;//x=4/z
-    double PI=0;
+    double PI=4.0f;
     int y;
     
     //無條件捨去
-    for (y=0;((int)(PI*100000))!=314159;y++) {
+    for (y=1;((int)(PI*100000))!=314159;y++) {
         if (y%2==0) //如果y是偶數，z=(2y+1)
             z=4.0/((y*2)+1); 
         else //如果y是奇數，z=(-2y-1)
