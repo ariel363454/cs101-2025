@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int main()
-{
-    long i=200;
-    long j=220;
-    long k=0;
-    k=(i+j);
-    k/=2;
-    printf("%ld+%ld=%ld\n",i,j,k);
+int main() {
+    
+    unsign char i=200;
+    unsign char j=220;
+    unsign char k=0;
+    
+    k=((j-i)/2)+i;
+    printf("(%d+%d)/2=%d/n", i, j, k);
 
     return 0;
 }
